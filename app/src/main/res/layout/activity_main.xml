@@ -20,6 +20,7 @@
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@mipmap/ic_logo" />
 
+
     <TextView
         android:id="@+id/codeLiaTextView"
         android:layout_width="139dp"
@@ -45,6 +46,18 @@
 
 
         />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Iniciar Sesión"
+        android:id="@+id/btnIniciarSesion"
+        app:layout_constraintTop_toBottomOf="@+id/codeLiaTextView"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="16dp"/>
+
+
 
 
 

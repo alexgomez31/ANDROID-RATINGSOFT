@@ -31,10 +31,11 @@ class MainActivity : AppCompatActivity() {
         logoImageView.startAnimation(animacionArriba)
 
         Handler().postDelayed({
-            val intent = Intent(this, LoginActivity::class.java)
+            val intent = Intent(this, ActivityVista::class.java)
             startActivity(intent)
             finish()
-        }, 2000) // 2000 milisegundos (2 segundos)
+        }, 3500)
     }
+
 }
 

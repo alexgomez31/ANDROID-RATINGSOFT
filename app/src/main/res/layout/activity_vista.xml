@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textAcercaDe"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Acerca de"
+        android:textSize="24sp"
+        android:layout_marginTop="32dp"
+        android:gravity="center"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:id="@+id/textMision"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Misión"
+        android:textSize="20sp"
+        android:layout_below="@+id/textAcercaDe"
+        android:layout_marginTop="16dp"
+        android:gravity="center"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:id="@+id/textVision"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Visión"
+        android:textSize="20sp"
+        android:layout_below="@+id/textMision"
+        android:layout_marginTop="16dp"
+        android:gravity="center"
+        android:textColor="@color/black" />
+
+    <Button
+        android:id="@+id/btnIniciarSesion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Iniciar Sesión"
+        android:onClick="irASecondActivity"
+        android:textSize="18sp"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="32dp"
+        android:textColor="@color/white"
+        android:background="@color/color_launch" />
+</RelativeLayout>
